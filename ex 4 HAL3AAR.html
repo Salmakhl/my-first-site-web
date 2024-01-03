@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        nav{
+            background-color: rgb(71, 67, 67);
+            height: 35px;
+            padding-top: 10px;
+            
+       }
+
+
+       .line{
+        display: inline-block;
+       }
+       .lineNext{
+            float: left;
+       }
+       .e{
+        background-color: white;
+        height: 788px;
+        padding: 26px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+       .e img{
+        height: 125px;
+         width: 750px;
+       }
+       .f{
+        background-color: rgb(226, 221, 221);
+        height: 90px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-radius: 0px 0px 20px 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+       @media screen and (orientation:portrait) {
+    
+            nav{
+               background-color: rgb(71, 67, 67);
+               height: 35px;
+               padding-top: 10px;
+               flex-direction: column;
+            }
+            nav a{
+        
+              padding: 15px;
+              line-height: 35px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+            }
+        }
+    </style>
+</head>
+<body>
+
+  <div style="background-color:yellow; height: 50px;  padding: 25px;" align="center"> redimensionner la fenetre</div>
+  <div style="background-color:green; height: 250px;  padding: 30px; color: white;" align="center"> <h3>Mon site</h3>
+      <p>avec une mise a jour flexible</p>
+  </div>
+
+  <nav>
+      <a href="" style="color: white; margin: 20px;">lien</a>
+      <a href="" style="color: white; margin: 20px;">lien</a>
+      <a href="" style="color: white; margin: 20px;">lien</a>
+      <a href="" style="color: white; margin: 20px;">lien</a>
+  </nav>
+
+    <div class="line">
+
+      <div class="lineNext" style="background-color: gray; width: 300; padding-top: 10px;">
+        <h2>A propos de moi</h2>
+        <b>photo de moi</b>
+        <br><br>
+        <img src="IMAGE3.jpg" width="300px" height="100px">
+        <br> 
+        un text sur moi
+        <br>
+        <h4>Plus de text</h4>
+        <br><br>
+        Pour moi c'..
+        <br>
+        <img src="IMAGE 1.jpg" width="300px" height="70px"><br>
+        <img src="IMAGE 1.jpg" width="300px" height="70px"><br>
+        <img src="IMAGE 1.jpg" width="300px" height="70px"><br>
+    </div>
+
+    <div class="lineNext">
+      <div class="e">
+        <h2>Titre 1</h2> 
+        <p style="margin-bottom: 1px;">Description du titre , 7 dec.2023</p><br>
+        <img src="IMAG.jpg" alt="">
+        <p>Un peut de texte ...</p>
+        <p style="font-family: system-ui;">
+          Les pages Web peuvent être consultées sur de nombreux types d'appareils: ordinateurs de bureau,<br>
+           tablettes et téléphones.
+        </p><br>
+        <h2>Titre 2</h2>
+        Description du titre ,2 sept.2023 <br><br>
+        <img src="IMAG.jpg" alt="">
+         <p>        Un peu de texte..        </p>
+         <p style="font-family: system-ui;">Les pages Web ne doivent pas omettre d'informations pour s'adapter aux appareils plus petits, mais plutôt <br>
+           adapter leur contenu pour s'afficher correctement sur l'appareil qu'elles utilisent.</p>
+      </div>
+    </div>
+
+  </div>
+  <div class="f"><h1>Pied de page </h1></div>
+</body>
+</html>
